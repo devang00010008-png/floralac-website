@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgBeads" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0" />
+      <stop offset="100%" stop-color="#E8DDD0" />
+    </linearGradient>
+    <linearGradient id="caseinIvory" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF8" />
+      <stop offset="60%" stop-color="#F2E8DC" />
+      <stop offset="100%" stop-color="#DECABE" />
+    </linearGradient>
+    <filter id="beadShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="10" stdDeviation="12" flood-color="#36281D" flood-opacity="0.16" />
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bgBeads)" />
+
+  <!-- Natural Linen Twine Strand -->
+  <path d="M80,300 Q300,380 520,300" fill="none" stroke="#C4B09A" stroke-width="4" stroke-dasharray="8 3" />
+  
+  <!-- 8 Beads arranged along curve -->
+  <g filter="url(#beadShadow)">
+    <!-- Bead 1 -->
+    <g transform="translate(130, 310)">
+      <circle cx="0" cy="0" r="28" fill="url(#caseinIvory)" stroke="#C8B5A3" stroke-width="1.5" />
+      <ellipse cx="-4" cy="-5" rx="12" ry="6" fill="#F4BA44" opacity="0.85" transform="rotate(30 -4 -5)" />
+      <ellipse cx="6" cy="7" rx="8" ry="4" fill="#B3382F" opacity="0.85" transform="rotate(-20 6 7)" />
+      <circle cx="0" cy="0" r="3" fill="#685646" />
+    </g>
+    <!-- Bead 2 -->
+    <g transform="translate(180, 328)">
+      <circle cx="0" cy="0" r="28" fill="url(#caseinIvory)" stroke="#C8B5A3" stroke-width="1.5" />
+      <ellipse cx="5" cy="-7" rx="10" ry="5" fill="#D97249" opacity="0.85" transform="rotate(-40 5 -7)" />
+      <circle cx="0" cy="0" r="3" fill="#685646" />
+    </g>
+    <!-- Bead 3 -->
+    <g transform="translate(230, 342)">
+      <circle cx="0" cy="0" r="28" fill="url(#caseinIvory)" stroke="#C8B5A3" stroke-width="1.5" />
+      <ellipse cx="-6" cy="4" rx="11" ry="6" fill="#F4BA44" opacity="0.85" transform="rotate(15 -6 4)" />
+      <ellipse cx="5" cy="-6" rx="9" ry="4" fill="#B3382F" opacity="0.8" transform="rotate(45 5 -6)" />
+      <circle cx="0" cy="0" r="3" fill="#685646" />
+    </g>
+    <!-- Bead 4 (Center Left) -->
+    <g transform="translate(280, 350)">
+      <circle cx="0" cy="0" r="30" fill="url(#caseinIvory)" stroke="#C8B5A3" stroke-width="1.5" />
+      <ellipse cx="0" cy="0" rx="14" ry="7" fill="#F4BA44" opacity="0.85" transform="rotate(-15 0 0)" />
+      <circle cx="0" cy="0" r="3" fill="#685646" />
+    </g>
+    <!-- Bead 5 (Center Right) -->
+    <g transform="translate(330, 350)">
+      <circle cx="0" cy="0" r="30" fill="url(#caseinIvory)" stroke="#C8B5A3" stroke-width="1.5" />
+      <ellipse cx="-4" cy="5" rx="13" ry="6" fill="#B3382F" opacity="0.85" transform="rotate(60 -4 5)" />
+      <circle cx="0" cy="0" r="3" fill="#685646" />
+    </g>
+    <!-- Bead 6 -->
+    <g transform="translate(380, 342)">
+      <circle cx="0" cy="0" r="28" fill="url(#caseinIvory)" stroke="#C8B5A3" stroke-width="1.5" />
+      <ellipse cx="6" cy="-4" rx="11" ry="5" fill="#F4BA44" opacity="0.85" transform="rotate(-30 6 -4)" />
+      <circle cx="0" cy="0" r="3" fill="#685646" />
+    </g>
+    <!-- Bead 7 -->
+    <g transform="translate(430, 328)">
+      <circle cx="0" cy="0" r="28" fill="url(#caseinIvory)" stroke="#C8B5A3" stroke-width="1.5" />
+      <ellipse cx="-5" cy="5" rx="9" ry="5" fill="#D97249" opacity="0.85" transform="rotate(20 -5 5)" />
+      <circle cx="0" cy="0" r="3" fill="#685646" />
+    </g>
+    <!-- Bead 8 -->
+    <g transform="translate(480, 310)">
+      <circle cx="0" cy="0" r="28" fill="url(#caseinIvory)" stroke="#C8B5A3" stroke-width="1.5" />
+      <ellipse cx="4" cy="-5" rx="11" ry="5" fill="#F4BA44" opacity="0.85" transform="rotate(-50 4 -5)" />
+      <ellipse cx="-4" cy="6" rx="8" ry="4" fill="#B3382F" opacity="0.8" transform="rotate(10 -4 6)" />
+      <circle cx="0" cy="0" r="3" fill="#685646" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0" />
+      <stop offset="100%" stop-color="#EBE1D5" />
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#C85A32" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#C85A32" stop-opacity="0" />
+    </radialGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#3A302A" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bgGrad)" />
+  <circle cx="300" cy="300" r="230" fill="url(#halo)" />
+  
+  <g filter="url(#softShadow)">
+    <circle cx="300" cy="270" r="120" fill="#FFFDF9" stroke="#E2D4C5" stroke-width="2" />
+    <!-- Botanical Emblem -->
+    <g transform="translate(300, 270)">
+      <circle cx="0" cy="-26" r="28" fill="#E28E46" opacity="0.95" />
+      <circle cx="-24" cy="0" r="26" fill="#D97249" opacity="0.95" />
+      <circle cx="24" cy="0" r="26" fill="#D97249" opacity="0.95" />
+      <circle cx="-16" cy="26" r="24" fill="#C85A32" opacity="0.95" />
+      <circle cx="16" cy="26" r="24" fill="#C85A32" opacity="0.95" />
+      <circle cx="0" cy="4" r="16" fill="#FFF9F2" />
+      <circle cx="0" cy="4" r="7" fill="#5B6E4E" />
+      <path d="M-40,42 Q0,90 40,42 Q0,60 -40,42 Z" fill="#5B6E4E" opacity="0.9" />
+    </g>
+  </g>
+  
+  <text x="300" y="445" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="700" fill="#1E1E22" letter-spacing="3">FLORALAC</text>
+  <text x="300" y="475" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#5B6E4E" letter-spacing="3">BIO-CIRCULAR CREATION</text>
+</svg>

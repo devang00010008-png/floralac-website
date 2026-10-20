@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgBrooch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6EF" />
+      <stop offset="100%" stop-color="#E8DDD0" />
+    </linearGradient>
+    <linearGradient id="broochCasein" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9" />
+      <stop offset="50%" stop-color="#F3E7D9" />
+      <stop offset="100%" stop-color="#DEC8B6" />
+    </linearGradient>
+    <filter id="broochShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="16" stdDeviation="20" flood-color="#2D1C12" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bgBrooch)" />
+
+  <g filter="url(#broochShadow)" transform="translate(300, 300)">
+    <!-- Brass Bezel Ring -->
+    <circle cx="0" cy="0" r="145" fill="#D4AF37" stroke="#A88B32" stroke-width="2" />
+    <circle cx="0" cy="0" r="138" fill="none" stroke="#66501A" stroke-width="1.5" stroke-dasharray="4 3" />
+    
+    <!-- Central Carved Flower Petal Silhouette in Casein -->
+    <circle cx="0" cy="0" r="130" fill="url(#broochCasein)" />
+
+    <!-- Sculpted Petals with embedded marigold fragments -->
+    <g>
+      <!-- Petal 1 -->
+      <path d="M0,0 C-35,-80 35,-80 0,0" fill="#E28E46" opacity="0.85" />
+      <!-- Petal 2 -->
+      <path d="M0,0 C80,-35 80,35 0,0" fill="#C85A32" opacity="0.85" />
+      <!-- Petal 3 -->
+      <path d="M0,0 C35,80 -35,80 0,0" fill="#E28E46" opacity="0.85" />
+      <!-- Petal 4 -->
+      <path d="M0,0 C-80,35 -80,-35 0,0" fill="#C85A32" opacity="0.85" />
+      
+      <!-- Real Embedded Rose & Marigold flakes -->
+      <ellipse cx="-40" cy="-40" rx="14" ry="7" fill="#B3382F" opacity="0.9" transform="rotate(45 -40 -40)" />
+      <ellipse cx="40" cy="-40" rx="16" ry="8" fill="#F4BA44" opacity="0.9" transform="rotate(-30 40 -40)" />
+      <ellipse cx="40" cy="40" rx="14" ry="7" fill="#B3382F" opacity="0.9" transform="rotate(30 40 40)" />
+      <ellipse cx="-40" cy="40" rx="15" ry="7" fill="#F4BA44" opacity="0.9" transform="rotate(-45 -40 40)" />
+
+      <!-- Center Brass Stamen Core -->
+      <circle cx="0" cy="0" r="28" fill="#D4AF37" stroke="#8A6E24" stroke-width="1.5" />
+      <circle cx="0" cy="0" r="12" fill="#5C4714" />
+    </g>
+  </g>
+</svg>
